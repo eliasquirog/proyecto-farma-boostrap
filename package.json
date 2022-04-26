@@ -1,0 +1,19 @@
+{
+  "name": "copia-de-proyecto",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eliasquirog/proyecto-farma-boostrap.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/eliasquirog/proyecto-farma-boostrap/issues"
+  },
+  "homepage": "https://github.com/eliasquirog/proyecto-farma-boostrap#readme",
+  "description": ""
+}

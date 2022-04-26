@@ -1,0 +1,37 @@
+@import"base";
+@import"layout";
+$fondo: #d5fffd;
+header{
+    background-image:linear-gradient(315deg, #73dfad 0%, #fafafa 74%);
+}
+body{
+    background-color: $fondo;
+}
+h2{
+    text-align: center;
+    margin-top: 10px;
+}
+h3{
+    font-size: 19px;
+    margin: 10px;
+}
+main{
+    p{
+        font-size: 25px;
+    }
+}
+main{
+    div{
+        p{
+            font-size: 20px;
+            margin: 15px;
+        }
+    }
+}
+footer{
+    background-image:  linear-gradient(315deg, #73dfad 0%, #fafafa 74%);
+    text-align: center;
+    div{
+        font-size: 24px;
+    }
+}
