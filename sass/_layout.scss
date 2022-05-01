@@ -1,9 +1,15 @@
-$fondo: #d5fffd;
+@mixin tamanio($ancho, $altura) {
+    width: $ancho;
+    height: $altura;
+    }
+$mapa:(
+    fondoDpagina:rgb(197, 255, 245)
+);
 header{
     background-image:linear-gradient(315deg, #73dfad 0%, #fafafa 74%);
 }
 body{
-    background-color: $fondo;
+    background: map-get($mapa, fondoDpagina);
 }
 h2{
     text-align: center;
@@ -12,6 +18,9 @@ h2{
 h3{
     font-size: 19px;
     margin: 10px;
+}
+.imagenDos{
+    @include tamanio(850px, 500px);
 }
 main{
     p{
@@ -27,7 +36,7 @@ main{
     }
 }
 footer{
-    background-image:  linear-gradient(315deg, #73dfad 0%, #fafafa 74%);
+    @extend header;
     text-align: center;
     div{
         font-size: 24px;
